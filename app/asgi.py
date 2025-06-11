@@ -35,7 +35,7 @@ def get_application() -> FastAPI:
     """Initialize FastAPI application.
 
     Returns:
-       FastAPI: Application object instance.
+        FastAPI: Application object instance.
 
     """
     instance = FastAPI(
